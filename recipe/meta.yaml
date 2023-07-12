@@ -1,6 +1,6 @@
 {% set name = "plog" %}
-{% set version = "1.1.6" %}
-{% set sha256 = "99fbb43772f92664ff086166fdff75cc437e9e50e74efec2fba80765fa6b67ae" %}
+{% set version = "1.1.9" %}
+{% set sha256 = "058315b9ec9611b659337d4333519ab4783fad3f2f23b1cc7bb84d977ea38055" %}
 
 package:
   name: {{ name|lower }}
