@@ -1,6 +1,6 @@
 {% set name = "plog" %}
-{% set version = "1.1.10" %}
-{% set sha256 = "55a090fc2b46ab44d0dde562a91fe5fc15445a3caedfaedda89fe3925da4705a" %}
+{% set version = "1.1.11" %}
+{% set sha256 = "d60b8b35f56c7c852b7f00f58cbe9c1c2e9e59566c5b200512d0cdbb6309a7c2" %}
 
 package:
   name: {{ name|lower }}
@@ -19,6 +19,7 @@ requirements:
     - cmake
     - make  # [unix]
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
 
 test:
   commands:
